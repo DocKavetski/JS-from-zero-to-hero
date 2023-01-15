@@ -87,7 +87,7 @@ body {
 
 .content__skills h2 {
   font-size: 30px;
-  color: var(--link-color);
+  color: black;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -137,10 +137,9 @@ body {
   width: 25%;
   height: auto;
 }
-
+.content__education,
 .content__about,
 .content__languages,
-.content__contacts,
-.content__skills {
+.content__contacts {
   display: none;
 }
