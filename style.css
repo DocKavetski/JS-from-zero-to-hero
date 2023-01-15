@@ -40,7 +40,6 @@ body {
 
 .item {
   position: relative;
-
   padding: 10px;
   color: var(--link-color);
   transition: 0.2s;
@@ -53,16 +52,16 @@ body {
   content: "";
   position: absolute;
   left: 5%;
-  bottom: 5px;
+  bottom: 10px;
   width: 0%;
-  height: 14px;
+  height: 10px;
   transform: skew(-12deg);
   background: rgba(131, 220, 90, 0.5);
   transition: 1s width ease;
 }
 
 .item:hover:after {
-  width: 55%;
+  width: 75%;
 }
 
 .content {
